@@ -13,7 +13,7 @@
 
 ## نحوه استفاده
 
-1. پروژه را کلون کنید:
+### پروژه را کلون کنید:
 
 ### bash
 - git clone https://github.com/YT-coder66/medicine-price-calculator.git
