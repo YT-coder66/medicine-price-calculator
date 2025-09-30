@@ -1,16 +1,56 @@
-# React + Vite
+# سایت محاسبه قیمت نسخه دارویی
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## توضیحات پروژه
+این پروژه یک وب‌سایت ساده و کاربردی است که قیمت نهایی نسخه‌های دارویی را با توجه به چند عامل مختلف محاسبه می‌کند. کاربران می‌توانند داروها را انتخاب کرده، تعداد تحویلی و تعداد اضافه بر سقف تجویزی را وارد کنند، و قیمت نهایی هر دارو و جمع کل نسخه را مشاهده نمایند.
 
-Currently, two official plugins are available:
+### ویژگی‌ها
+- انتخاب دارو از لیست پیش‌فرض
+- وارد کردن تعداد تحویلی و اضافه
+- محاسبه قیمت نهایی هر دارو با الگوریتم مخصوص
+- نمایش جدول خلاصه نسخه همراه با امکان حذف داروها
+- نمایش حق فنی ثابت و جمع کل پرداختی
+- طراحی ریسپانسیو و سازگار با موبایل
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## نحوه استفاده
 
-## React Compiler
+1. پروژه را کلون کنید:
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### bash
+- git clone https://github.com/YT-coder66/medicine-price-calculator.git
 
-## Expanding the ESLint configuration
+### وارد پوشه پروژه شوید:
+- cd [نام پوشه پروژه]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### نصب وابستگی‌ها:
+- npm install
+
+### اجرای پروژه به صورت محلی:
+- npm start
+
+### برای ساخت نسخه قابل Deploy:
+- npm run build
+
+### وشه build را در سرویس‌های میزبانی مانند Netlify آپلود کنید.
+
+## دمو آنلاین
+- برای مشاهده دموی آنلاین پروژه، می‌توانید از لینک زیر استفاده کنید:
+
+https://your-netlify-demo-link.netlify.app
+
+## ساختار پروژه
+- src/ : شامل کدهای React
+
+- README.md : راهنمای پروژه
+
+## فناوری‌ها
+- React.js
+
+- JavaScript (ES6+)
+
+- CSS3 (ریسپانسیو)
+
+## تماس
+
+- برای هر گونه سوال یا درخواست پشتیبانی می‌توانید از طریق ایمیل زیر با من در ارتباط باشید:
+
+- pr0grmer6cd@gmail.com
