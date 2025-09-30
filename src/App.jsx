@@ -11,6 +11,33 @@ const medicines = [
     ceiling: 100,             // E سقف تجویزی
     insurancePercent: 0.2494, // G
   },
+  {
+    id: 2,
+    name: "متفورمین 500 میلی‌گرم",
+    basePrice: 15000,
+    insurancePrice: 13000,
+    priceDifference: 2000,
+    ceiling: 90,
+    insurancePercent: 0.20,
+  },
+  {
+    id: 3,
+    name: "آتورواستاتین 20 میلی‌گرم",
+    basePrice: 45000,
+    insurancePrice: 40000,
+    priceDifference: 5000,
+    ceiling: 80,
+    insurancePercent: 0.25,
+  },
+  {
+    id: 4,
+    name: "لوواستاتین 40 میلی‌گرم",
+    basePrice: 35000,
+    insurancePrice: 30000,
+    priceDifference: 5000,
+    ceiling: 70,
+    insurancePercent: 0.22,
+  }
   // می‌تونی اینجا داروهای بیشتر اضافه کنی
 ];
 
