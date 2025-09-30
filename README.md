@@ -35,7 +35,7 @@
 ## دمو آنلاین
 - برای مشاهده دموی آنلاین پروژه، می‌توانید از لینک زیر استفاده کنید:
 
-https://your-netlify-demo-link.netlify.app
+- https://amazing-meringue-d198a9.netlify.app/
 
 ## ساختار پروژه
 - src/ : شامل کدهای React
